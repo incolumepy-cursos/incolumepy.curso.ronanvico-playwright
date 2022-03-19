@@ -1,4 +1,4 @@
-from incolumepy_curso_ronanvico_playwright import configfile, versionfile, __version__
+from incolumepy.curso.ronanvico_playwright import configfile, versionfile, __version__
 import pytest
 import re
 
