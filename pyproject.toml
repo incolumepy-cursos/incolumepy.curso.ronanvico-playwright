@@ -4,7 +4,7 @@ version = "0.4.0"
 description = ""
 authors = ["Britodfbr <britodfbr@gmail.com>"]
 packages=[
-    {include = 'incolumepy/curso/ronanvico_playwright', from=''},
+    {include = 'incolumepy/curso', from=''},
 ]
 
 [tool.poetry.dependencies]
@@ -24,6 +24,7 @@ furo = "^2022.3.4"
 myst-parser = "^0.17.0"
 mypy = "^0.941"
 safety = "^1.10.3"
+playwright = "^1.20.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
